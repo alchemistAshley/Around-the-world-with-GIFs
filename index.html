@@ -6,9 +6,10 @@
 
         <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cookie" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">        
+        <link rel="stylesheet" href="assets/css/style.css">     
+
     </head>
-    
+
     <body>
         <header>
             <ul id="header">
@@ -21,18 +22,25 @@
                 <img id="illustration" src="assets/images/watercolorworld.jpg" alt="watercolor world illustration"/>
             </div>
 
-            <div class="place-buttons row">
-                <div class="col-md-2">
-                    <button type="button" class="btn btn-light">place</button>
+            <div class="row">
+                <div class="col-md-12" id="buttons-view">
                 </div>
             </div>
 
-            <div class="gif-display">
-                <img class="gif-image"/>
-                <p class="rating">Rating</p>
+            <div class="row m-2">
+                <label for="place-input"></label>
+                <input type="text" id="place-input">
+                <br>
+                <button id="add-place" class="btn btn-light">Add</button>
+            </div>
+
+            <div id="gif-display" class="row m-2">
+                <img class="gif-image" id="gif-image"/>
+                <p class="rating"></p>
             </div>
         </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
+    <script src="assets/javascript/javascript.js"></script>
     </body>
 </html>
