@@ -19,6 +19,7 @@ li {
 
 body {
     font-family: 'Averia Serif Libre', cursive;
+    color: #84b2a8;
 }
 
 .container {
@@ -46,7 +47,7 @@ body {
     max-width: 200px;
     max-height: auto;
 }
-
-.rating {
-    font-family: 'Averia Serif Libre', cursive;
+i
+nput {
+    color: #84b2a8;
 }
