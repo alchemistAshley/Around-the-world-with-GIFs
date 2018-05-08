@@ -23,7 +23,7 @@ function displayInfo() {
             var gifDiv = $("<div>");
             var gifImage = $("<img>");
 
-            gifImage.addClass("m-1");
+            gifImage.addClass("m-1 gif");
             gifImage.attr("src", results[i].images.fixed_height_still.url);
             gifImage.attr("data-state", "still");
             gifImage.attr("still", results[i].images.fixed_height_still.url);
